@@ -13,6 +13,7 @@
 		E64CB0202088999200C1F751 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E64CB01F2088999200C1F751 /* Assets.xcassets */; };
 		E64CB0232088999200C1F751 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E64CB0212088999200C1F751 /* LaunchScreen.storyboard */; };
 		E64CB0262088999200C1F751 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E64CB0252088999200C1F751 /* main.m */; };
+		E64CB02E208899AC00C1F751 /* IrregularView.m in Sources */ = {isa = PBXBuildFile; fileRef = E64CB02D208899AC00C1F751 /* IrregularView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		E64CB0222088999200C1F751 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E64CB0242088999200C1F751 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E64CB0252088999200C1F751 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E64CB02C208899AC00C1F751 /* IrregularView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IrregularView.h; sourceTree = "<group>"; };
+		E64CB02D208899AC00C1F751 /* IrregularView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IrregularView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				E64CB0172088999200C1F751 /* AppDelegate.m */,
 				E64CB0192088999200C1F751 /* ViewController.h */,
 				E64CB01A2088999200C1F751 /* ViewController.m */,
+				E64CB02C208899AC00C1F751 /* IrregularView.h */,
+				E64CB02D208899AC00C1F751 /* IrregularView.m */,
 				E64CB01C2088999200C1F751 /* Main.storyboard */,
 				E64CB01F2088999200C1F751 /* Assets.xcassets */,
 				E64CB0212088999200C1F751 /* LaunchScreen.storyboard */,
@@ -144,6 +149,7 @@
 			files = (
 				E64CB01B2088999200C1F751 /* ViewController.m in Sources */,
 				E64CB0262088999200C1F751 /* main.m in Sources */,
+				E64CB02E208899AC00C1F751 /* IrregularView.m in Sources */,
 				E64CB0182088999200C1F751 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +287,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MJ937SEY3P;
 				INFOPLIST_FILE = "在view绘制图形区分点击事件/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "CheBaiDu.-view----------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -295,6 +302,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MJ937SEY3P;
 				INFOPLIST_FILE = "在view绘制图形区分点击事件/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "CheBaiDu.-view----------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
