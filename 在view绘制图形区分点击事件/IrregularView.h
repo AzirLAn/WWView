@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface IrregularView : UIView
-
+@property (nonatomic ,strong)NSString *carUrlStr;
 @end
