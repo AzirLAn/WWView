@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "IrregularView.h"
 #import "GCD.h"
+#import "ListCarInfoViewController.h"
 @interface ViewController ()<CAAnimationDelegate>
 @property (nonatomic, strong) GCDTimer *timer;
 @property (nonatomic, strong) UIImageView *imageCar;
@@ -85,6 +86,9 @@
         NSLog(@"在里面");
     }else if ([notification.userInfo[@"IsIn"] isEqualToString:@"Out"]){
         NSLog(@"在外面");
+        ListCarInfoViewController *vc  =[[ListCarInfoViewController alloc]init];
+        [self.navigationController pushViewController:vc animated:YES];
+        
     }
 }
 
